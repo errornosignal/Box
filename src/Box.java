@@ -5,7 +5,7 @@ public class Box <T extends Comparable<>{
     private T value;
 
 
-    //NO GOOD no argument constructor with null val fucker
+    //NO GOOD no argument constructor with null val
 //    public box(){
 //        this.value = null;
 //    }
