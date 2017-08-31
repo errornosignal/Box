@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8863583-deef-4882-aa06-514c2c400c9c" name="Default" comment="end of class 08/29 v200.02.1">
+    <list default="true" id="f8863583-deef-4882-aa06-514c2c400c9c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -281,7 +280,7 @@
       <workItem from="1504207850271" duration="78000" />
       <workItem from="1504208103287" duration="623000" />
       <workItem from="1504208953442" duration="39000" />
-      <workItem from="1504209073643" duration="13000" />
+      <workItem from="1504209073643" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="commit test 2">
       <created>1504021730025</created>
@@ -325,11 +324,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504208535710</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v 200.0032456 biotch">
+      <created>1504209104239</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504209104239</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4810000" />
+    <option name="totallyTimeSpent" value="4856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="87" y="48" width="1193" height="738" extended-state="0" />
@@ -376,7 +382,8 @@
     <MESSAGE value="end of class 08/29 v2" />
     <MESSAGE value="end of class 08/29 v200.02" />
     <MESSAGE value="end of class 08/29 v200.02.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="end of class 08/29 v200.02.1" />
+    <MESSAGE value="v 200.0032456 biotch" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 200.0032456 biotch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
