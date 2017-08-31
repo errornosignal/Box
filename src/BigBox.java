@@ -9,6 +9,7 @@ public class BigBox<T, U> {
     public BigBox(T typeOne, U typeTwo){
         this.setTypeOne(typeOne);
         this.setTypeTwo(typeTwo);
+        //skank
     }
 
     @Override
