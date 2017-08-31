@@ -11,7 +11,7 @@ public class box <T extends Comparable<>{
 //    }
 
     public box(T value){
-        this.setValue(value);
+        this.setValue(value);;
     }
 
     public T getvalue(){
