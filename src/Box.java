@@ -1,6 +1,6 @@
 
 
-public class box <T extends Comparable<>{
+public class Box <T extends Comparable<>{
 
     private T value;
 
@@ -10,7 +10,7 @@ public class box <T extends Comparable<>{
 //        this.value = null;
 //    }
 
-    public box(T value){
+    public Box(T value){
         this.setValue(value);;
     }
 
