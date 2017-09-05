@@ -6,10 +6,9 @@ public class BigBox<T, U> {
 
     private U typeTwo;
 
-    public BigBox(T typeOne, U typeTwo){
+    public BigBox(T typeOne, U typeTwo) {
         this.setTypeOne(typeOne);
         this.setTypeTwo(typeTwo);
-
     }
 
     @Override

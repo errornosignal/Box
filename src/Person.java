@@ -1,5 +1,11 @@
-public class Person {
+
+
+public class Person
+        implements
+        Comparable<Person>,
+        Writeable<Person> {
     private String name;
+
 
     @Override
     public String toString() {
@@ -18,4 +24,13 @@ public class Person {
         this.name = name;
     }
 
+    @Override
+    public int compareTo(Person o) {
+        return 0;
+    }
+
+    @Override
+    public void write(Person obj) {
+
+    }
 }

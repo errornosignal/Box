@@ -7,8 +7,10 @@ public class Main {
 
         System.out.println(Box);
 
-        BigBox<Integer, Box<Person>> Box1 = new BigBox<>(12, new Box<>("Old Box"));
+        BigBox<Integer, Box<Person>> Box1 =
+                new BigBox<>(12, new Box<>(new Person("Shane")));
         System.out.println(Box1);
+
 //        box<String> stringBox = new box<>("String Box");
 //
 //        box<Double> doubleBox = new box<>(12.3);

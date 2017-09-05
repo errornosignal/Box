@@ -1,6 +1,6 @@
 
 
-public class Box <T extends Comparable<>{
+public class Box <T extends Comparable<? super T> & Writeable<? super T>> {
 
     private T value;
 
@@ -10,20 +10,20 @@ public class Box <T extends Comparable<>{
 //        this.value = null;
 //    }
 
-    public Box(T value){
-        this.setValue(value);;
+    public Box(T value) {
+        this.setValue(value);
     }
 
-    public T getvalue(){
+    public T getvalue() {
         return this.value;
     }
 
-    public void setValue (T value){
+    public void setValue (T value) {
         this.value = value;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return String.format("Value=('%s')", this.value.toString());
     }
 }
